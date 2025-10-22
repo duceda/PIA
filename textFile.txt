@@ -1,0 +1,4 @@
+Hello, world! In my house, there's a car and in that car, Python lives.
+Python, Python, everywhere: from the garage to the world beyond.
+"Hello again!" shouts the car, racing past the house with joy.
+Is this world real, or just a Python dream on wheels?
