@@ -15,7 +15,7 @@ pattern_car_license_plate = re.compile(r"^(?=.*[A-Z])(?=.*\d)[A-Z0-9\- ]{5,10}$"
 
 # Listamos los objetos en el bucket y carpeta especificados
 response = s3.list_objects_v2(Bucket=BUCKET_NAME, Prefix=S3_FOLDER_NAME)
-print(response)
+print(response.get("Contents", []))
 
 for obj in response.get("Contents", []):
     key = obj["Key"]
